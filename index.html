@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiseido Inspired Website</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style> -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-black py-4">
+      <div>
+        
+        <!-- Center: Search Bar -->
+        <div class="md:flex  justify-between mx-4">
+          <div class="container mx-auto px-4">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/Shiseido-Logo.png" alt="Shiseido Logo" class=" h-20">
+          </div>
+          <input type="text" placeholder="Search Here" class="w-full sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[900px] mx-4 sm:mx-6 md:mx-8 lg:mx-10 h-8 mt-5 px-4 text-black bg-gray-800 placeholder-white rounded">
+        </div>
+      </div>
+      <!-- Right: Menu Links and Icons -->
+      <div>
+        <!-- Mobile Menu (Visible on small screens) -->
+<div class="flex md:hidden justify-between space-x-4">
+  <a href="#" class="text-white text-md hover:text-gray-300">MENU</a>
+</div>
+
+<!-- Desktop Menu (Hidden on small screens, flex on medium and larger screens) -->
+<div class="hidden md:flex justify-between space-x-4">
+  <a href="#" class="text-white text-md hover:text-gray-300">BEST SELLERS</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">SKINCARE</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">MAKEUP</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">MEN</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">SETS & TRAVEL</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">DISCOVER</a>
+  <a href="#" class="text-white text-md hover:text-gray-300">LAST CHANCE</a>
+</div>
+
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center" style="background-image: url('https://www.cosmetify.com/media/images/Shiseido_Banne.2e16d0ba.fill-756x326-c100.jpegquality-65.png'); height: 500px;">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto relative z-10 text-white text-center py-20">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Discover Your Beauty</h1>
+      <p class="text-lg md:text-xl mb-8">Explore our best-selling skincare and makeup products.</p>
+      <a href="#" class="bg-red-600 px-6 py-3 rounded-full text-white hover:bg-red-700 transition">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Product Categories -->
+  <section class="py-12">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8">Explore Our Categories</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Category 1 -->
+        <div class="relative group">
+          <img src="https://etimg.etb2bimg.com/photo/103711358.cms" alt="Skincare" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+            <a href="#" class="text-white font-bold text-lg">Skincare</a>
+          </div>
+        </div>
+        <!-- Category 2 -->
+        <div class="relative group">
+          <img src="https://shiseido.ipscdn.net/sa1/on/demandware.static/-/Sites-shiseido_us-Library/default/dwae5f1256/contentassetimages/2023/hp/shopby_modules/CONCERN-ULTIMUNE-M.jpg" alt="Makeup" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+            <a href="#" class="text-white font-bold text-lg">Makeup</a>
+          </div>
+        </div>
+        <!-- Category 3 -->
+        <div class="relative group">
+          <img src="https://neimansidealist.files.wordpress.com/2021/09/the-beauty-idealist-shiseido-sunscreen-2.jpeg?w=720" alt="Sunscreen" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+            <a href="#" class="text-white font-bold text-lg">Sunscreen</a>
+          </div>
+        </div>
+        <!-- Category 4 -->
+        <div class="relative group">
+          <img src="https://www.parcos.com/_next/image?url=https%3A%2F%2Fprod.parcoscom.hyperx.cloud%2Fmedia%2Fcatalog%2Fproduct%2F7%2F2%2F729238143920_1_1.webp&w=640&q=75" alt="Men" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+            <a href="#" class="text-white font-bold text-lg">Men's Grooming</a>
+          </div>
+        </div>
+      </div><br><br><br>
+
+    <div class="flex justify-between items-center">
+      <!-- Image Section -->
+        <div>
+          <img class="h-[600px] w-auto" src="https://shiseido.ipscdn.net/sa1/on/demandware.static/-/Sites-shiseido_us-Library/default/dw1084149e/contentassetimages/2023/flyout/SHI_AW23_196_Flyout_436x712_SkinVisualizerNow.gif" alt="Advertisement Image">
+        </div>
+      <!-- Text Section -->
+        <div class="text-left py-4 max-w-md">
+            <h2 style="font-family: 'Playfair Display', serif;" class="text-center text-red-800 font-bold text-5xl  font-poppines mb-2">With Shiseido Expertise your Skin</h2>
+            <p class="text-center mb-4">Discover your skin type and unlock the secrets to healthier skin</p>
+            <p style="font-family: Pacifico" class="text-center text-blue-900 font-semibold text-3xl leading-relaxed">Get your skin analysis + </p>
+                <p class="text-center font-serif text-black font-semibold bg-yellow-300 text-4xl leading-relaxed">Personalised skin care </p>
+                <p style="font-family: Pacifico" class="text-center text-blue-900 font-semibold text-3xl leading-relaxed">Recommandation in</p> <p style="font-family: Pacifico" class="text-center text-blue-900 font-semibold text-3xl leading-relaxed ">just one selfie</p>
+                <p class="text-center ">Treat your skin with a personalized 3-minute skin analysis</p><br>
+                
+        </div>
+      </div>
+
+      
+      <!-- skincare -->
+      <h2 class="text-3xl font-bold text-center mb-8">Skincare</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
+        
+        <!-- Product 1 -->
+        <div class=" p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="data:image/jpeg;base64,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" alt="Product 1" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h3 class="text-lg font-semibold">Vital Perfection</h3>
+          <p class="text-sm text-gray-500">Uplifting And Firming Cream Enriched</p>
+          <p class="mt-2 text-sm text-gray-600">Firming cream for dry skin that visibly lifts</p>
+          <p class="mt-2 text-lg font-bold">$32.1</p>
+          <div class="flex space-x-2 mt-2 ">
+            <span class="px-2 py-1 border rounded-full text-xs">50mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">75mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">20mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 mb-2 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+      
+        <!-- Product 2 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://sslimages.shoppersstop.com/sys-master/images/hca/hb4/30196783546398/205918091_UNMAPPED_alt1.jpg_230Wx334H" alt="Product 2" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h3 class="text-lg font-semibold">Benefiance</h3>
+          <p class="text-sm text-gray-500">Wrinkle Smoothing Day Cream SPF 23</p>
+          <p class="mt-2 text-sm text-gray-600">SPF 23 anti-aging day moisturizer</p>
+          <p class="mt-2 text-lg font-bold">$45.3</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">150mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">300mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+      
+        <!-- Product 3 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://static.thcdn.com/productimg/original/12589830-4595118267557382.jpg" alt="Product 3" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h3 class="text-lg font-semibold">Clarifying Cleansing Foam</h3>
+          <p class="text-sm text-gray-500">(For All Skin Types)</p>
+          <p class="mt-2 text-sm text-gray-600">Creamy foam cleanser</p>
+          <p class="mt-2 text-lg font-bold">$25</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">150mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">300mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-6 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+      
+        <!-- Product 4 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSdtKYGZ4D_FvKbe-mHcG2iDBCi1BzF5aWg&s" alt="Product 4" class="w-full h-40 object-cover rounded-lg mb-4">
+          <h3 class="text-lg font-semibold">Treatment Softener Enriched</h3>
+          <p class="text-sm text-gray-500">(For Normal, Dry And Very Dry Skin)</p>
+          <p class="mt-2 text-sm text-gray-600">Smoothing, hydrating softener </p>
+          <p class="mt-2 text-lg font-bold">$36</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">150mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">300mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+        <!-- product 5 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dwff8d11d7/images/2024/September/FSLX/EyeLipCream/0768614212584_11.jpg?sw=200&sh=200&sm=fit">
+          <h3 class="text-lg font-semibold">Total Regenerating Cream</h3>
+          <p class="text-sm text-gray-500">(For All Skin Types)</p>
+          <p class="mt-2 text-sm text-gray-600">Creamy foam cleanser</p>
+          <p class="mt-2 text-lg font-bold">$56</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">50mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">75mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">20mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+        <!-- product 6 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw809927f3/images/2024/September/FSLX/RegeneratingCream/0729238212640_2.jpg?sw=200&sh=200&sm=fit">
+          <h3 class="text-lg font-semibold">Eye and Lip Contour Regenerating Cream</h3>
+          <p class="text-sm text-gray-500">(For All Skin Types)</p>
+          <p class="mt-2 text-sm text-gray-600">Creamy foam cleanser</p>
+          <p class="mt-2 text-lg font-bold">$62</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">150mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">300mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+        <!-- product 7 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw1697067c/images/2024/August/FutureSolutionLX/0768614212553_2.jpg?sw=200&sh=200&sm=fit">
+          <h3 class="text-lg font-semibold">Extra Rich Cleansing Foam</h3>
+          <p class="text-sm text-gray-500">(For All Skin Types)</p>
+          <p class="mt-2 text-sm text-gray-600">Creamy foam cleanser</p>
+          <p class="mt-2 text-lg font-bold">$67</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">50mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">75mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">20mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+        <!-- product 8 -->
+        <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+          <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw6e805016/images/2024/August/FutureSolutionLX/0768614212560_1.jpg?sw=200&sh=200&sm=fit">
+          <h3 class="text-lg font-semibold">Extra Rich Cleansing Foam</h3>
+          <p class="text-sm text-gray-500">(For All Skin Types)</p>
+          <p class="mt-2 text-sm text-gray-600">Creamy foam cleanser</p>
+          <p class="mt-2 text-lg font-bold">$45.3</p>
+          <div class="flex space-x-2 mt-2">
+            <span class="px-2 py-1 border rounded-full text-xs">50mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">75mL</span>
+            <span class="px-2 py-1 border rounded-full text-xs">20mL</span>
+          </div>
+          <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="flex justify-between items-center">
+        <div class="col-6">
+          <img class="h-[550px] w-[500px]" src="https://shop.shiseido.com.my/cdn/shop/files/UTM_Product_photo_UTM3.0_1x1_02_24AW_11940219-03b9-4701-8bfb-94c6ae827da5_600x.jpg?v=1721272156" alt="">
+        </div>
+        <div class="col-6">
+          <p style="font-family: 'Playfair Display', serif;" class="text-center mb-4 text-red-800 font-bold text-5xl mb-2">Why Choose  </p> <p style="font-family: 'Playfair Display', serif;" class="text-center mb-4 text-red-800 font-bold text-5xl mb-2">Shiseido <span class="text-black text-3xl">GINZA TOKYO</span></p> <p style="font-family: 'Playfair Display', serif;" class="text-center mb-4 text-red-800 font-bold text-5xl  font-poppines mb-2">to Expertise your Skin</p>
+        </div>
+      </div><br><br>
+      
+      
+       <!-- make up -->
+       
+       <h2 class="text-3xl font-bold text-center mb-8">Makeup</h2>
+       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6">
+         
+         <!-- Product-M 1 -->
+         <div class=" p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dwcf145e9a/images/2024/July/HunterDaiyaFaceDuo/0729238219793_2.jpg?sw=800&sh=800&sm=fit" alt="Product 1" class="w-full h-40 object-cover rounded-lg mb-4">
+           <h3 class="text-lg font-semibold ">Shiseido x Hunter Limited Edition DAIYA FUDE Face Duo</h3>
+           <p class="text-sm text-gray-500">double-ended makeup tool</p>
+           <p class="mt-2 text-sm text-gray-600">Firming cream for dry skin that visibly lifts</p>
+           <p class="mt-2 text-lg font-bold">$35</p>
+           <div class="flex space-x-2 mt-2">
+             <span class="px-2 py-1 border rounded-full text-xs">Small</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Medium</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Large</span>
+           </div>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+       
+         <!-- Product-M 2 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw0da4e79b/images/hi-res/0729238147805.jpg?sw=800&sh=800&sm=fit" alt="Product 2" class="w-full h-40 object-cover rounded-lg mb-4">
+           <h3 class="text-lg font-semibold">ModernMatte Powder Lipstick</h3>
+           <p class="text-sm text-gray-500">Wrinkle Smoothing Day Cream SPF 23</p>
+           <p class="mt-2 text-sm text-gray-600">SPF 23 anti-aging day moisturizer</p>
+           <p class="mt-2 text-lg font-bold">$34.2</p>
+           <p class="px-2 py-1 border rounded-full text-xs text-center mt-4">16 Shades available</p>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+       
+         <!-- Product-M 3 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw167f83a2/images/2024/February/RevitalEssencePrimer/0730852212824_1.jpg?sw=800&sh=800&sm=fit" alt="Product 3" class="w-full h-40 object-cover rounded-lg mb-4">
+           <h3 class="text-lg font-semibold">Revitalessence Skin Glow Primer SPF 25</h3>
+           <p class="text-sm text-gray-500">(For All Skin Types)</p>
+           <p class="mt-2 text-sm text-gray-600">Moisture for a healthy, glowing finish</p>
+           <p class="mt-2 text-lg font-bold">$23.8</p>
+           <div class="flex space-x-2 mt-8">
+             <span class="px-2 py-1 border rounded-full text-xs">150mL</span>
+             <span class="px-2 py-1 border rounded-full text-xs">300mL</span>
+           </div>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+       
+         <!-- Product 4 -->
+         <div>
+          <img class="w-[400px] mb-4 " src="https://shiseido.ipscdn.net/sa1/on/demandware.static/-/Sites-shiseido_us-Library/default/dw06d081c7/contentassetimages/2023/ingrid/SHI-AW23-035_RevitalEssenceLaunch_InGrid_400x750.jpg" alt="">
+          <p class="text-center text-2xl font-semibold" style="font-family: 'Oswald', sans-serif;">REVITALESSENCE SKIN GLOW </p>
+          <p class="text-center text-xl text-gray-700 font-semibold">Foundation SPF 30</p>
+          <p class="text-center text-xl text-gray-600 mb-2">Skincare-Active Makeup</p>
+          <p class="bg-black p-3 text-xl text-white text-center">SHOP NOW</p>
+          
+         </div>
+         <!-- product 5 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw7b127883/images/hi-res/0729238147362.jpg?sw=800&sh=800&sm=fit">
+           <h3 class="text-lg font-semibold">MicroLiner Ink</h3>
+           <p class="text-sm text-gray-500">(Full Coverage)</p>
+           <p class="mt-2 text-sm text-gray-600">Deliver a weightless, smudge-proof inky line</p>
+           <p class="mt-2 text-lg font-bold">$29.7</p>
+           <div class="flex space-x-2 mt-12 ">
+             <span class="px-2 py-1 border rounded-full text-xs">Blue</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Black</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Brown</span>
+           </div>
+           <div>
+            <button class="text-lg rounded mt-2  mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+         <!-- product 6 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dwff6dffb1/images/hi-res/0730852147676_1.jpg?sw=800&sh=800&sm=fit">
+           <h3 class="text-lg font-semibold">ControlledChaos MascaraInk</h3>
+           <p class="text-sm text-gray-500">(volumizing mascara)</p>
+           <p class="mt-2 text-sm text-gray-600">volumizing mascara delivers graphic, buildable volume and bold color</p>
+           <p class="mt-2 text-lg font-bold">$63.2</p>
+           <p class="px-2 py-1 border rounded-full text-xs text-center ">2 Shades available</p>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+         <!-- product 7 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw3a839d68/images/hi-res/0729238161214_main.jpg?sw=800&sh=800&sm=fit">
+           <h3 class="text-lg text-lg font-semibold">SYNCHRO SKIN SELF-REFRESHING Custom Finish Powder Foundation</h3>
+           <p class="text-sm text-gray-500">(For All Skin Types)</p>
+           <p class="mt-2 text-lg font-bold">$63.2</p>
+           <div class="flex space-x-2 mt-2">
+             <span class="px-2 py-1 border rounded-full text-xs">Small</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Medium</span>
+             <span class="px-2 py-1 border rounded-full text-xs">Large</span>
+           </div>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+         <!-- product 8 -->
+         <div class="p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
+           <img src="https://shiseido.ipscdn.net/sa2/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dwa864cc0b/images/hi-res/0729238148086.jpg?sw=800&sh=800&sm=fit">
+           <h3 class="text-xl font-semibold">VisionAiry Gel Lipstick</h3>
+           <p class="text-sm text-gray-500">(Long Lasting)</p>
+           <p class="mt-2 text-sm text-gray-600">long-lasting, full-coverage lipstick , weightless color</p>
+           <p class="mt-2 text-lg font-bold">$32.2</p>
+           <p class="px-2 py-1 border rounded-full text-xs text-center mt-4">2 Shades available</p>
+           <div>
+            <button class="text-lg mt-4 rounded mx-8 px-6 py-1 text-white bg-green-700">BUY NOW</button>
+          </div>
+         </div>
+       </div>
+
+      </div>
+    </div>
+  </section>
+  <div style="background-image: url('https://i.ytimg.com/vi/_xjOnaQuY9g/maxresdefault.jpg'); height:700px;"></div>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-8">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Customer Service -->
+      <div>
+        <h3 class="font-bold mb-4">Customer Service</h3>
+        <ul>
+          <li><a href="#" class="hover:underline">Contact Us</a></li>
+          <li><a href="#" class="hover:underline">FAQs</a></li>
+          <li><a href="#" class="hover:underline">Shipping Info</a></li>
+        </ul>
+      </div>
+      <!-- Company Info -->
+      <div>
+        <h3 class="font-bold mb-4">Company Info</h3>
+        <ul>
+          <li><a href="#" class="hover:underline">About Us</a></li>
+          <li><a href="#" class="hover:underline">Careers</a></li>
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- Social Media -->
+      <div>
+        <h3 class="font-bold mb-4">Follow Us</h3>
+        <ul class="flex space-x-4">
+          <li><a href="#"><img src="https://cdn-icons-png.freepik.com/256/5968/5968764.png?semt=ais_hybrid" alt="Facebook" class="h-6"></a></li>
+      </ul>
+      </div>
+      <!-- logo -->
+      <div>
+        <img src="https://logos-world.net/wp-content/uploads/2020/11/Shiseido-Logo.png" alt="">
+      </div>
+      </div>
+      </footer>
+      </body>
+      </html>
+    
